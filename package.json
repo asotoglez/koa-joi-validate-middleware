@@ -18,10 +18,10 @@
     "lib",
     "test"
   ],
-  "homepage": "https://github.com/kdPark0723/koa-joi-validate-middleware",
+  "homepage": "https://github.com/asotoglez/koa-joi-validate-middleware",
   "bugs": {
-    "url": "https://github.com/kdPark0723/koa-joi-validate-middleware/issues",
-    "email": "kdpark023@gmail.com"
+    "url": "https://github.com/asotoglez/koa-joi-validate-middleware/issues",
+    "email": "alesoto9113@gmail.com"
   },
   "dependencies": {
     "joi-validate-middleware": "^1.0.4",
