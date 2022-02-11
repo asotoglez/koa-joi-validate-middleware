@@ -1,10 +1,10 @@
 # Koa Joi Validate Middleware
-![](https://img.shields.io/npm/dm/koa-joi-validate-middleware.png?style=flat-square)  
+![](https://img.shields.io/npm/dm/koa-joi-validate-middleware.png?style=flat-square)
 **Validate middleware generator using *Joi***
 
 Easily create [Koa](https://github.com/koajs/koa) middleware for validate with [Joi](https://github.com/hapijs/joi).
 
-​    
+​
 
 ## Install
 
@@ -12,7 +12,7 @@ Easily create [Koa](https://github.com/koajs/koa) middleware for validate with [
 $ npm i koa-joi-validate-middleware
 ```
 
-​    
+​
 
 ## Usage
 
@@ -22,27 +22,27 @@ $ npm i koa-joi-validate-middleware
 const validateMiddleware = require('koa-joi-validate-middleware');
 ```
 
-​    
+​
 
 ### Create Validate Middleware
 
 ```js
 const schema = {
   // Request headers Joi validation object
-  headers: Joi.obejct({
+  headers: Joi.object({
   }),
 
   // URL query string Joi validation object
-  query: Joi.obejct({
+  query: Joi.object({
   }),
 
   // URL path parameters Joi validation object
-  params: Joi.obejct({
+  params: Joi.object({
     id: Joi.string().required(),
   }).required(),
 
   // POST body Joi validation object
-  body: Joi.obejct({
+  body: Joi.object({
   }),
 };
 
@@ -56,7 +56,7 @@ function errorCallback(ctx, error) {
 }
 ```
 
-​    
+​
 
 ### Use Validate Middleware
 
